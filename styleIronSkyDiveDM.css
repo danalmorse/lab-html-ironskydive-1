@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    size: 10px;
+    line height: 3.5em;
+    weight: 300;
+    
+}
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Roboto Condensed; 
+    }
+
+    h1 {
+        font-size: 9em;
+        text-align: center;
+        text-transform: uppercase; 
+    }
+
+    h2 {
+        font-size: 5em;
+        text-align: center;
+        text-transform: uppercase; 
+        line-height: 4em;
+        color: white;
+        text-shadow: #020819 8px -20px 9px;
+    }
+
+    h3 {
+        font-size: 4.2em;
+        text-align: center;
+        line-height: 1em; 
+        }
+    
+    h4 {
+        font-size: 1.5em;
+        letter-spacing: 0.4px;
+        line-height: 1em; 
+        }
+    
+    h5 {
+        font-size: 1.2em;
+        line-height: 1em; 
+        }
+    
+    .nav-bar {
+        background-color: rgb(25, 33, 41);
+               
+        }
+    
+    .nav-bar a {
+        text-decoration: none;
+        font-size: 2em;
+        color: white; 
+        }
+    
+    .header {
+        background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+        background-position: 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 650px;
+    }
+    
+    .quote {  
+        font-size: 2.5em; 
+        }
+
+    /* preguntar si lo acontinuacion esta bien tanto en css como html porque no se como agregarlo a la seccion con # ahi abajo*/
+    #general-information .dark-background {
+        background-color: rgb(25, 33, 41);
+        color: white;              
+        }
+    
+    #general-information .text {
+        font-size: 2em;
+        font-weight: 100;
+        text-align: center;              
+        }
+    
+    #general-information .link-btn {
+        background-color: rgb(67, 163, 230);
+        color: white;
+        font-family: Roboto Condensed;
+        font-size: 2em; /* preguntar porque no me aumenta la letra como aparece ahi */
+        letter-spacing: 0.5px;
+        text-align: center;
+        text-decoration: none;        
+        }
+    
+    #structure .service-box { /* preguntar si esta bien así */
+        font-size: 1.7em;
+        text-align: center;              
+        }
+    
+    .service-box img { /* preguntar si esta bien así */
+        width: 125px;             
+        }
+    
+    #team .dark-background { /* preguntar si esta bien así */
+        background-color: rgb(25, 33, 41);
+        color: white;          
+        }   
+
+    #team .section-text { /* preguntar si esta bien así */
+        font-size: 1.9em;
+        text-align: center;      
+        }
+
+    #team .member-name { /* preguntar si esta bien así */
+        font-size: 1.5em;
+        font-weight: 700;          
+        }
+    
+    #team img {
+        width: 250px;
+        height: 180px;
+        }
+    
+    .dark-background { /* preguntar si esta bien así */
+        background-color: rgb(25, 33, 41);
+        color: white;
+        list-style: none;
+                 
+        }
+
+    .footer  { /* preguntar si esta bien así */
+        font-size: 1.9em;
+        text-align: center;
+               
+        }
+    
+    .address { /* preguntar si esta bien así */
+        font-style: normal;
+        font-size: 0.8em;
+                 
+        }
+
+    .footer a {
+        color: rgb(67, 163, 230); 
+        text-decoration: none;
+        
+        }
+
+#general-information {
+    background-color: ;
+    color: ;
+    width: px;
+    height: px;
+  }
+
+  #structure {
+    background-color: ;
+    color: ;
+    width: px;
+    height: px;
+  }
+
+  #team {
+    background-color: ;
+    color: ;
+    width: px;
+    height: px;
+  }
+
+  #schedule {
+    background-color: ;
+    color: ;
+    width: px;
+    height: px;
+  }
